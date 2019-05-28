@@ -19,5 +19,6 @@ print("regression finish")
 print("Score", reg.score(data_test, target_test))
 
 for i in range(-50, 0):
-    dataarray = np.array(data_test[i]).reshape(1,-1)
+    dataarray = data_test[i].reshape(1,-1)
     print("predict/actual",reg.predict(dataarray)[0], target_test[i])
+    #print(data_test[i].reshape(1,-1))
