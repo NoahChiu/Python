@@ -11,7 +11,7 @@ labels = ["SL","SW","PL","PW"]
 print(type(X),type(Y))
 print(X.shape)
 
-#Plot the picture
+#Plot the picture between X labels
 counter =1
 for i in range(0,4):
     for j in range(i+1,4):
