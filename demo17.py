@@ -27,7 +27,7 @@ svc.fit(data, iris.target)
 Z = svc.predict(np.c_[X.ravel(), Y.ravel()]) #np.c_是按行连接两个矩阵，就是把两矩阵左右相加，要求行数相等
                                              #ravel 多維轉一維
 plt.contour(X,Y,Z.reshape(X.shape), color = 'K')
-for c,s in zip([0,1,2],['o','+','*']):
+for c,s in zip([0,1,2],['.','+','*']):
     d = data[iris.target == c]
     plt.scatter(d[:,0], d[:,1],c='k',marker=s)
 plt.show()
