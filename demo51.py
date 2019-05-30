@@ -17,3 +17,5 @@ pyplot.boxplot(resualt)
 pyplot.subplot(1,2,2)
 pyplot.hist(resualt)
 pyplot.show()
+
+
