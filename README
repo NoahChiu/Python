@@ -123,3 +123,27 @@ View, Copy and assignment
 
 ##demo 41
 *demo 39 another way
+
+##demo 42
+*ReLu and Sigmoid
+
+##demo 43
+*Pima Indians Diabetes Database
+
+##demo 44
+*evaluate => validation from split data
+
+##demo 44
+*train_test_split
+
+##demo 46
+*split data by K-fold
+
+##demo 47
+*cross_val_score
+
+##demo 48
+*GridSearchCV
+
+##demo 49
+*tensorflow in iris
